@@ -10,7 +10,7 @@ python -m gzip_http_server 8080 --encoding=gzip --max-file-size=10000
 
 or
 ```bash
-docker run -v $PWD:/tmp/share -p 8000:8000 andythefactory/gzip-range-server
+docker run -v $PWD:/tmp/share -p 8000:8000 andythefactory/gzip-range-server --encoding=gzip --max-file-size=10000
 ```
 
 ## Features
